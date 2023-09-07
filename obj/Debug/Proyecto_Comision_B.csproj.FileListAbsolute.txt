@@ -1,0 +1,7 @@
+C:\Users\ro\Desktop\desarrollo de soft\Programacion 2\c#\Proyecto_Comision_B\Proyecto_Comision_B\bin\Debug\Proyecto_Comision_B.exe.config
+C:\Users\ro\Desktop\desarrollo de soft\Programacion 2\c#\Proyecto_Comision_B\Proyecto_Comision_B\bin\Debug\Proyecto_Comision_B.exe
+C:\Users\ro\Desktop\desarrollo de soft\Programacion 2\c#\Proyecto_Comision_B\Proyecto_Comision_B\bin\Debug\Proyecto_Comision_B.pdb
+C:\Users\ro\Desktop\desarrollo de soft\Programacion 2\c#\Proyecto_Comision_B\Proyecto_Comision_B\obj\Debug\Proyecto_Comision_B.csproj.AssemblyReference.cache
+C:\Users\ro\Desktop\desarrollo de soft\Programacion 2\c#\Proyecto_Comision_B\Proyecto_Comision_B\obj\Debug\Proyecto_Comision_B.csproj.CoreCompileInputs.cache
+C:\Users\ro\Desktop\desarrollo de soft\Programacion 2\c#\Proyecto_Comision_B\Proyecto_Comision_B\obj\Debug\Proyecto_Comision_B.exe
+C:\Users\ro\Desktop\desarrollo de soft\Programacion 2\c#\Proyecto_Comision_B\Proyecto_Comision_B\obj\Debug\Proyecto_Comision_B.pdb
