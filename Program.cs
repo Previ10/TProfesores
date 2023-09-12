@@ -6,7 +6,7 @@ namespace Proyecto_Comision_B
 {
     internal class Program
     {
-        static List<Profesor> profes = new List<Profesor>(); // Lista para almacenar profesores
+        static List<Profesor> profes = new List<Profesor>(); 
 
         static void Main(string[] args)
         {
@@ -45,7 +45,7 @@ namespace Proyecto_Comision_B
                         break;
 
                     case "6":
-                        Environment.Exit(0); // Salir del programa
+                        Environment.Exit(0);
                         break;
 
                     default:
