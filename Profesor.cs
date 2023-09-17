@@ -11,6 +11,7 @@ internal class Profesor : Empleado
 {
     public string Materia { get; set; }
     public int Antiguedad { get; set; }
+    public string ART { get; set; }
 
     public Profesor(string cargo, int legajo, string art, string obraSocial, float sueldoBruto, string materia, int antiguedad, int id, string nombre, string apellido, string dni, string cuil)
         : base(cargo, legajo, art, obraSocial, sueldoBruto, id, nombre, apellido ,dni,cuil)
