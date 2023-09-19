@@ -1,4 +1,5 @@
-﻿using System;
+﻿using proyectoprogramacion;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,17 @@ namespace Proyecto_Comision_B
 {
     internal interface Isueldo
     {
-        void Sueldo();
+        float SueldoBruto { get; } 
+
+        float CalcularSueldoNeto(); 
     }
+
+
+
+
+
+
+
+
 }
+
