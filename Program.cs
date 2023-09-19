@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace proyectoprogramacion
+namespace Proyecto_Comision_B
 {
     internal class Program
     {
