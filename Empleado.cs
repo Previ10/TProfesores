@@ -8,15 +8,10 @@ namespace Proyecto_Comision_B
 {
     internal class Empleado : Persona, Isueldo
     {
-
-        public void Sueldo()
-        {
-            
-        }
-        private String cargo;
+        private string cargo;
         private int legajo;
-        private String art;
-        private String obraSocial;
+        private string art;
+        private string obraSocial;
         private float sueldoBruto;
 
         public string Cargo
@@ -45,23 +40,28 @@ namespace Proyecto_Comision_B
             set { sueldoBruto = value; }
         }
 
-        public Empleado(string cargo, int legajo, string art, string obraSocial, float sueldoBruto, int id, string nombre, string apellido, string dni, string cuil) 
-            :base ( id,  nombre,  apellido,  dni,  cuil)
+        public Empleado(string cargo, int legajo, string art, string obraSocial, float sueldoBruto, int id, string nombre, string apellido, string dni, string cuil)
+            : base(id, nombre, apellido, dni, cuil)
         {
             this.cargo = cargo;
             this.legajo = legajo;
             this.art = art;
             this.obraSocial = obraSocial;
             this.sueldoBruto = sueldoBruto;
-
-
         }
 
-
+        public float CalcularSueldoNeto()
+        {
+            float obraSocialDescuento = sueldoBruto * 0.03f;
+            float descuentoINSSJP = sueldoBruto * 0.03f;
+            float jubilacion = sueldoBruto * 0.11f;
+            float deduccionTotal = obraSocialDescuento + descuentoINSSJP + jubilacion;
+            float sueldoNeto = sueldoBruto - deduccionTotal;
+            return sueldoNeto;
+        }
+        public float ObtenerSueldoBruto()
+        {
+            return SueldoBruto;
+        }
     }
-    
-
-
-
-
 }

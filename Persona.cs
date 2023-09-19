@@ -56,7 +56,6 @@ namespace Proyecto_Comision_B
             this.cuil = cuil;
         }
 
-        //public abstract void MostrarInformacion();
 
         public Persona()
         {
