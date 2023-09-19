@@ -1,0 +1,26 @@
+ID: 12345
+Nombre: albert
+Apellido: sanchez
+DNI: 39624041
+CUIL: 193193199
+Cargo: adscrito
+Legajo: 1234
+Obra Social: osde
+Sueldo Bruto: 1200
+ART: 
+Antigüedad: 10
+Materia: lengua
+---------------
+ID: 123999
+Nombre: ignacio
+Apellido: previgliano
+DNI: 38986871
+CUIL: 2038986871
+Cargo: jefe
+Legajo: 1234000
+Obra Social: ospen
+Sueldo Bruto: 120000
+ART: 
+Antigüedad: 12
+Materia: lenguaje
+---------------
